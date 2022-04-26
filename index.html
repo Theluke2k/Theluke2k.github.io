@@ -1,9 +1,153 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>HTML Cheatsheet</title>
+</head>
+
 <body>
-  <h1>Theluke2k</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <header>
+        <h1>Worlds Best CSS Cheatsheet</h1>
+        <nav>
+            <ul>
+                <li><a href="#position">Position</a></li>
+                <li><a href="#csscolors">CSS colors</a></li>
+                <li><a href="#fonts">Fonts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="position" class="position">
+            <h2>HTML positioning</h2>
+            <p>Placing HTML elements where you want is not always easy. The first thing you should know, is the CSS Box
+                model.</p>
+            <div class="boxmodel">
+                <div class="margin">
+                    <p>Margin</p>
+                    <div class="border">
+                        <p>Border</p>
+                        <div class="padding">
+                            <p>Padding</p>
+                            <div class="content">
+                                <p>Content</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="bigpadding">The following 3 values are essential to use to position HTML elements:</p>
+            <table>
+                <tr>
+                    <th>Property</th>
+                    <th>Usage</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Margin</td>
+                    <td class="italic">margin: 10px;</td>
+                    <td>The margin defines how much space there must be between the outside of the element, to the
+                        elemtent beside.</td>
+                </tr>
+                <tr>
+                    <td>Border</td>
+                    <td class="italic">border: 1px solid red;</td>
+                    <td>The border defines the lines on the outside of the padding and the content. A border can be
+                        colered and set to different styles.</td>
+                </tr>
+                <tr>
+                    <td>Padding</td>
+                    <td class="italic">padding: 20px;</td>
+                    <td>The padding defines how much space there must be between the border and the content.</td>
+                </tr>
+            </table>
+            <p class="note">There are more ways to speficy the arguments of these than specified in the table. For
+                example, if two inputs are given to the margin property, the top and margin would be the first input and
+                the left and right would be the second input.</p>
+        </section>
+        <section id="csscolors">
+            <h2>CSS colors</h2>
+            <p>There are many different predefines colors in css. These colors can be used by using the <em>color</em>
+                property and typing the name of the color. Below is a list of some of the most popular predefined css
+                colors.</p>
+            <div class="colors">
+                <h3 class="inline classicblue">Classic Blue</h3>
+                <h3 class="inline livingcoral">Living Coral</h3>
+                <h3 class="inline ultraviolet">Ultra Violet</h3>
+                <h3 class="inline greenery">Greenery</h3>
+                <h3 class="inline rosequartz">Rose Quartz</h3>
+                <h3 class="inline serenity">Serenity</h3>
+            </div>
+            <p class="bigpadding">Some colors are not available to directly in CSS, however, colors can be specified using either HEX, RGB or HSL values. The colors different values for the colors are displayed in the table below:</p>
+            <table class="centertd">
+                <tr>
+                    <th>Color</th>
+                    <th>HEX Value</th>
+                    <th>RGB Value</th>
+                    <th>HSL Value</th>
+                </tr>
+                <tr>
+                    <td>Classic Blue</td>
+                    <td>#34568B</td>
+                    <td>(52, 86, 139)</td>
+                    <td>(217, 46%, 37%)</td>
+                </tr>
+                <tr>
+                    <td>Living Coral</td>
+                    <td>#FF6F61</td>
+                    <td>(255, 111, 97)</td>
+                    <td>(5, 100%, 69%)</td>
+                </tr>
+                <tr>
+                    <td>Ultra Violet</td>
+                    <td>#6B5B95</td>
+                    <td>(107, 91, 149)</td>
+                    <td>(257, 24%, 47%)</td>
+                </tr>
+                <tr>
+                    <td>Greenery</td>
+                    <td>#88B04B</td>
+                    <td>(136, 176, 75)</td>
+                    <td>(84, 40%, 49%)</td>
+                </tr>
+                <tr>
+                    <td>Rose Quartz</td>
+                    <td>#F7CAC9</td>
+                    <td>(247, 202, 201)</td>
+                    <td>(1, 74%, 88%)</td>
+                </tr>
+                <tr>
+                    <td>Serenity</td>
+                    <td>#92A8D1</td>
+                    <td>(247, 202, 201)</td>
+                    <td>(219, 41%, 70%)</td>
+                </tr>
+            </table>
+        </section>
+        <section class="fonts" id="fonts">
+            <h2>CSS Fonts</h1>
+            <p>An important characteristic for a website to look good is a good font. There is a large selection of built-in fonts in browser, some of the most popular are listed below.</p>
+            <h3 class="times">Times New Roman</h3>
+            <p class="times">This text is written in the Times New Roman font.</p>
+            <h3 class="arial">Arial</h3>
+            <p class="arial">This text is written in the Arial font.</p>
+            <h3 class="verdana">Verdana</h3>
+            <p class="verdana">This text is written in the Verdana font.</p>
+            <h3 class="Helvetica">Helvetica</h3>
+            <p class="helvetica">This text is written in the Helvetica font.</p>
+            <h3 class="tahoma">Tahoma</h3>
+            <p class="tahoma">This text is written in the Tahoma font.</p>
+            <h3 class="trebuchet">Threbuchet</h3>
+            <p class="trebuchet">This text is written in the Trebuchet font.</p>
+            <h3 class="georgia">Georgia</h3>
+            <p class="georgia">This text is written in the Georgia font.</p>
+            <h3 class="garamond">Garamond</h3>
+            <p class="garamond">This text is written in the Garamond font.</p>
+        </section>
+    </main>
 </body>
- 
+
 </html>
