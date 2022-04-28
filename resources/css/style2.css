@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+section {
+    border: 2px dashed rgb(187, 187, 187);
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 100px;
+    box-sizing: border-box;
+
+}
+
+section h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+header {
+    text-align: center;
+    
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+nav {
+    background-color: #282A35;
+    text-align: center;
+}
+
+nav ul {
+    padding: 5px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: #282A35;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.fonts h3 {
+    color: rgb(110, 108, 108);
+    font-size: 22px;
+}
+
+.roboto {
+    font-family: 'Roboto';
+}
+
+.helvetica {
+    font-family: Helvetica;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.verdana {
+    font-family: Verdana;
+}
+
+.font-div {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 8%;
+    text-align: center;
+    margin: 0 25px;
+    box-sizing: border-box;
+    margin: 8px 8px;
+}
+
+.font-div:hover {
+    border: 1px solid rgb(110, 108, 108);
+    background-color: rgba(0, 0, 0, 0.15);
+    transition: border 0.03s;
+    transition: background-color 0.5s;
+}
+
+.font-container {
+    text-align: center;
+}
+
+.color-display {
+    text-align: center;
+}
+
+.color-block {
+    padding: 20px;
+    border-radius: 8%;
+    margin: 8px 8px;
+    width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.color-block p {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.blackbutnotblack {
+    background-color: #282A35;
+    color: white;
+}
+
+.nicegray {
+    background-color: rgb(245, 245, 245);
+}
+
+.nicegreen {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.classicblue {
+    background-color: #34568B;
+    color: white;
+}
+
+.color-block p.hex {
+    font-size: 15px;
+    color: rgb(245, 245, 245);
+}
+
+.color-block:hover {
+    
+}
+
+.color-block.blackbutnotblack:hover {
+    background-color: rgba(40, 42, 53, 0.95);
+    transition: background-color 0.5s;
+    border: 1px solid black;
+    transition: border 0.03s;
+}
+
+.color-block.nicegreen:hover {
+    background-color: rgba(4, 170, 109, 0.95);
+    transition: background-color 0.5s;
+    border: 1px solid black;
+    transition: border 0.03s;
+}
+
+.color-block.classicblue:hover {
+    background-color: rgba(52, 86, 139, 0.95);
+    transition: background-color 0.5s;
+    border: 1px solid black;
+    transition: border 0.03s;
+}
+
+.color-block.nicegray:hover {
+    background-color: rgb(245, 245, 245, 0.9);
+    transition: background-color 0.5s;
+    border: 1px solid black;
+    transition: border 0.03s;
+}
+
+#special .hex {
+    color: black;
+}
+
+.examples h1 {
+    font-size: 50px;
+}
+
+.examples {
+    border: 1px dashed rgb(187, 187, 187);
+}

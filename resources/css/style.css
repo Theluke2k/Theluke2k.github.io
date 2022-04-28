@@ -1,1 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+body {
+    background-color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+section {
+    border: 2px dashed rgb(187, 187, 187);
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 100px;
+    box-sizing: border-box;
+
+}
+
+section h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+.margin {
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    border: 2px dashed #bbb;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 45px;
+}
+
+.border {
+    background-color: rgb(4, 170, 109);
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 45px;
+}
+
+.padding {
+    background-color: rgb(241, 241, 241);
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 45px;
+}
+
+.content {
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 2px dashed rgb(187, 187, 187);
+}
+
+.boxmodel {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.boxmodel p {
+    font-family: monospace;
+    font-size: 20px;
+    margin: 0 0;
+    padding: 15px 0;
+}
+
+header {
+    text-align: center;
+    
+}
+
+nav {
+    background-color: #282A35;
+    text-align: center;
+}
+
+nav ul {
+    padding: 5px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: #282A35;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, section table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+table th {
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.note {
+    font-style: italic;
+    font-size: 15px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.inline {
+    font-family: monospace;
+    font-size: 30px;
+    display: inline-block;
+    padding: 0 45px;
+}
+
+.classicblue {
+    color: #34568B;
+}
+
+.livingcoral {
+    color: #FF6F61;
+}
+
+.ultraviolet {
+    color: #6B5B95;
+}
+
+.greenery {
+    color: #88B04B;
+}
+
+.rosequartz {
+    color: #F7CAC9;
+}
+
+.serenity {
+    color: #92A8D1;
+}
+
+.colors {
+    text-align: center;
+    border: 1px dashed rgb(187, 187, 187);
+}
+
+.bigpadding {
+    padding-top: 20px;
+}
+
+.centertd {
+    text-align: center;
+}
+
+.centertd th {
+    text-align: center;
+}
+
+.fonts h3 {
+    color: rgb(110, 108, 108);
+    font-size: 22px;
+    padding-top: 25px;
+}
+
+.times {
+    font-family: "Times New Roman"
+}
+
+.arial {
+    font-family: Arial;
+}
+
+.verdana {
+    font-family: Verdana;
+}
+
+.helvetica {
+    font-family: Helvetica;
+}
+
+.tahoma {
+    font-family: Tahoma;
+}
+
+.trebuchet {
+    font-family: 'Trebuchet MS';
+}
+
+.georgia {
+    font-family: Georgia;
+}
+
+.garamond {
+    font-family: Garamond;
+}
